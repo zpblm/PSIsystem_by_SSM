@@ -235,26 +235,26 @@
 				<li class="limenuitem">
 					<i class="icon-cog menuicon"></i>系统菜单<b class="arrow icon-angle-down arrow-down"></b>
 					<ul class="ulleftsubitems">
-						<a href="Class/list" target="right">
+						<a href="${pageContext.request.contextPath }/Class/list" target="right">
 							<li>分类管理</li>
 						</a>
-						<a href="Product/list" target="right">
+						<a href="${pageContext.request.contextPath }/Product/list" target="right">
 							<li>库存管理</li>
 						</a>
 						<a href="InProduct/list" target="right">
 							<li>入库管理</li>
 						</a>
-						<a href="Warn/list" target="right">
+						<a href="${pageContext.request.contextPath }/Warn/list" target="right">
 							<li>预警信息设置</li>
 						</a>
-						<a href="OutProduct/list" target="right">
+						<a href="${pageContext.request.contextPath }/OutProduct/list" target="right">
 							<li>出库管理</li>
 						</a>
 
-						<a href="userlist" target="right" id="usermanger">
+						<a href="${pageContext.request.contextPath }/userlist" target="right" id="usermanger">
 							<li>用户管理</li>
 						</a>
-						<a href="/toupdatepwd" target="right"><li >修改密码</li></a>
+						<a href="${pageContext.request.contextPath }/toupdatepwd" target="right"><li >修改密码</li></a>
 					</ul>
 				</li>
 			</ul>

@@ -28,7 +28,7 @@
 					<div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4"
 						style="padding-top: 30px;">
 						<form class="am-form am-form-horizontal"
-							action="/updatepwd" method="post" id="mpwdfrom">
+							action="${pageContext.request.contextPath }/updatepwd" method="post" id="mpwdfrom">
                             <input type="text" value="${login_user}" id="user" name="uname" style="visibility: hidden">
 							<div class="am-form-group">
 								<label class="am-u-sm-3 am-form-label">

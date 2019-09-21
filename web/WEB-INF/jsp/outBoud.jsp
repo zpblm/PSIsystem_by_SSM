@@ -81,8 +81,8 @@
 					<div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4"
 						style="padding-top: 30px;">
 						<form class="am-form am-form-horizontal"
-							action="/OutProduct/add" method="post">
-							<input type="text" name="uname" id="unameinput" value="${user}">
+							action="${pageContext.request.contextPath }/OutProduct/add" method="post">
+							<input type="text" name="uname" id="unameinput" value="${login_user}">
 
 							<div class="am-form-group">
 								<label class="am-u-sm-3 am-form-label">
